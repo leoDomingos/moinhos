@@ -1,0 +1,159 @@
+{
+  "content": [
+    {
+      "id": 95504,
+      "name": "Contato de Emergência",
+      "categories": [{ "id": 11, "name": "Ida à Emergência" }],
+      "recommendations": [],
+      "targetDate": "2024-11-21",
+      "targetDateTemporary": false,
+      "originalTargetDate": "2024-11-21",
+      "effectiveDate": "2024-11-21",
+      "scheduledAt": "2024-11-26",
+      "closed": true,
+      "progress": "ACCOMPLISHED",
+      "managed": false,
+      "dateCreated": 1732643677639,
+      "dateClosed": 1732643677479,
+      "timeZoneId": "America/Sao_Paulo",
+      "defaultEffectiveDateLabel": "Agendado para",
+      "accomplishedEffectiveDateLabel": "Realizado em",
+      "createdBy": {
+        "id": 217657,
+        "email": "carla.silveira@hmv.org.br",
+        "phoneNumber": "+351981161730",
+        "person": { "id": 217708, "name": "Bibiana Silveira" }
+      },
+      "closedBy": {
+        "id": 217657,
+        "email": "carla.silveira@hmv.org.br",
+        "phoneNumber": "+351981161730",
+        "person": { "id": 217708, "name": "Bibiana Silveira" }
+      },
+      "individualCarePlan": {
+        "id": 26970,
+        "bodyPart": { "id": 17, "name": "Pulmão", "archived": false },
+        "pathwayStartDate": "2024-12-02"
+      },
+      "pathway": { "id": 899, "name": "30.21. Quimioterapia - Ciclo 21 dias" },
+      "formData": {
+        "demanda": "opçãoA",
+        "motivoIda": "b",
+        "sintomas": ["d", "b"],
+        "idaEmergencia": false
+      },
+      "patient": {
+        "id": 219546
+      }
+    },
+    {
+      "id": 87110,
+      "name": "Contato de Emergência",
+      "categories": [{ "id": 11, "name": "Ida à Emergência" }],
+      "recommendations": [],
+      "targetDate": "2024-10-25",
+      "targetDateTemporary": false,
+      "originalTargetDate": "2024-10-25",
+      "effectiveDate": "2024-10-25",
+      "scheduledAt": "2024-11-06",
+      "closed": true,
+      "progress": "ACCOMPLISHED",
+      "managed": false,
+      "dateCreated": 1730904554921,
+      "dateClosed": 1730904554855,
+      "timeZoneId": "America/Sao_Paulo",
+      "defaultEffectiveDateLabel": "Agendado para",
+      "accomplishedEffectiveDateLabel": "Realizado em",
+      "createdBy": {
+        "id": 217657,
+        "email": "carla.silveira@hmv.org.br",
+        "phoneNumber": "+351981161730",
+        "person": { "id": 217708, "name": "Bibiana Silveira" }
+      },
+      "closedBy": {
+        "id": 217657,
+        "email": "carla.silveira@hmv.org.br",
+        "phoneNumber": "+351981161730",
+        "person": { "id": 217708, "name": "Bibiana Silveira" }
+      },
+      "individualCarePlan": {
+        "id": 25240,
+        "bodyPart": { "id": 17, "name": "Pulmão", "archived": false },
+        "pathwayStartDate": "2024-08-02",
+        "pathwayEndDate": "2024-10-25"
+      },
+      "pathway": { "id": 899, "name": "30.21. Quimioterapia - Ciclo 21 dias" },
+      "formData": {
+        "demanda": "opçãoA",
+        "motivoIda": "b",
+        "idaEmergencia": false
+      },
+      "patient": {
+        "id": 226906
+      }
+    },
+    {
+      "id": 95522,
+      "name": "Contato de Emergência",
+      "categories": [{ "id": 279, "name": "Contato de Emergência" }],
+      "recommendations": [],
+      "targetDate": "2024-10-24",
+      "targetDateTemporary": false,
+      "originalTargetDate": "2024-10-24",
+      "effectiveDate": "2024-10-24",
+      "scheduledAt": "2024-11-26",
+      "closed": true,
+      "progress": "ACCOMPLISHED",
+      "managed": false,
+      "dateCreated": 1732644638617,
+      "dateClosed": 1732644638500,
+      "timeZoneId": "America/Sao_Paulo",
+      "defaultEffectiveDateLabel": "Agendado para",
+      "accomplishedEffectiveDateLabel": "Realizado em",
+      "createdBy": {
+        "id": 217657,
+        "email": "carla.silveira@hmv.org.br",
+        "phoneNumber": "+351981161730",
+        "person": { "id": 217708, "name": "Bibiana Silveira" }
+      },
+      "closedBy": {
+        "id": 217657,
+        "email": "carla.silveira@hmv.org.br",
+        "phoneNumber": "+351981161730",
+        "person": { "id": 217708, "name": "Bibiana Silveira" }
+      },
+      "individualCarePlan": {
+        "id": 25060,
+        "bodyPart": { "id": 17, "name": "Pulmão", "archived": false },
+        "pathwayStartDate": "2024-10-16"
+      },
+      "pathway": { "id": 753, "name": "10. Radioterapia" },
+      "formData": {
+        "demanda": "opçãoB",
+        "motivoIda": "b",
+        "sintomas": ["b", "g", "d"],
+        "idaEmergencia": false
+      },
+      "patient": {
+        "id": 227891
+      }
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": true,
+  "number": 0,
+  "numberOfElements": 3,
+  "size": 20,
+  "totalPages": 1,
+  "totalElements": 3,
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 20,
+    "sort": { "empty": true, "sorted": false, "unsorted": true },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "sort": { "empty": true, "sorted": false, "unsorted": true }
+}

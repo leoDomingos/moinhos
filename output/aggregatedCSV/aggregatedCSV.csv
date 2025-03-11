@@ -1,0 +1,179 @@
+script_date,a_postKPI,a_postKPI_outliers,b_preKPI,b_preKPI_outliers,b_postKPI,b_postKPI_outliers,c_preKPI,c_preKPI_outliers,c_postKPI,c_postKPI_outliers,d,e,f,g_nao_navegacao,g_nao_tto
+['2025-01-10 10:14:08.356525'],[15.4],[[]],[33.9],[[]],[37.4],"[[index                                                                         34
+id                                                                            12
+createdAt                                            2024-11-09T12:50:01.042433Z
+updatedAt                                            2024-11-20T13:05:56.598045Z
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                218510
+patient.fullName                                           Arnaldo Buede Sleimon
+patient.preferredName                                                    Arnaldo
+patient.birthDate                                                     1941-08-28
+patient.phoneNumber                                               +5551999695984
+patient.medicalRecordId                                                  1155037
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                             cirurgia
+formData.molecularnao                                                     opçãoB
+formData.biopsianao                                                       opçãoA
+formData.decisao                                                      2024-03-19
+formData.liberacao                                                    2024-05-03
+formData.inicio                                                       2024-04-18
+formData.testemolecular                                               2024-09-04
+formData.tipoPDL                                                             NaN
+formData.infusao                                                             NaN
+Name: 17, dtype: object, index                                                                         49
+id                                                                            27
+createdAt                                            2024-11-11T17:06:23.600291Z
+updatedAt                                            2024-11-20T13:59:11.579048Z
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                226446
+patient.fullName                                                  Norberto Wolff
+patient.preferredName                                                   Norberto
+patient.birthDate                                                     1947-10-22
+patient.phoneNumber                                               +5551981263292
+patient.medicalRecordId                                                  9414350
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                               quimio
+formData.molecularnao                                                     opçãoA
+formData.biopsianao                                                       opçãoA
+formData.decisao                                                      2024-08-01
+formData.liberacao                                                    2024-06-06
+formData.inicio                                                       2024-08-16
+formData.testemolecular                                               2024-08-29
+formData.tipoPDL                                                             NaN
+formData.infusao                                                             NaN
+Name: 22, dtype: object]]",[28.2],"[[index                                                                         42
+id                                                                            60
+createdAt                                            2024-11-28T14:55:58.952816Z
+updatedAt                                                                    NaN
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                239084
+patient.fullName                             Maria Alda Cabral Severino da Silva
+patient.preferredName                                                      Maria
+patient.birthDate                                                     1952-11-21
+patient.phoneNumber                                                          NaN
+patient.medicalRecordId                                                      NaN
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                         quimioeimuno
+formData.molecularnao                                                     opçãoA
+formData.biopsianao                                                       opçãoA
+formData.decisao                                                             NaN
+formData.liberacao                                                    2021-04-30
+formData.inicio                                                       2021-05-07
+formData.testemolecular                                               2021-05-11
+formData.tipoPDL                                                             [b]
+formData.infusao                                                      2021-05-07
+Name: 24, dtype: object]]",[33.6],"[[index                                                                         13
+id                                                                            19
+createdAt                                            2024-11-09T14:59:06.351404Z
+updatedAt                                            2024-11-20T13:18:59.542477Z
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                219994
+patient.fullName                                   Paulo Sidiney Vieira Avancini
+patient.preferredName                                                      Paulo
+patient.birthDate                                                     1947-10-13
+patient.phoneNumber                                               +5551992438247
+patient.medicalRecordId                                                 11179025
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                                imuno
+formData.molecularnao                                                     opçãoB
+formData.biopsianao                                                       opçãoA
+formData.decisao                                                      2020-06-29
+formData.liberacao                                                    2020-06-04
+formData.inicio                                                       2020-07-10
+formData.testemolecular                                               2020-07-29
+formData.tipoPDL                                                             [b]
+formData.infusao                                                      2020-07-10
+Name: 6, dtype: object, index                                                                         32
+id                                                                            13
+createdAt                                            2024-11-09T12:57:38.576597Z
+updatedAt                                            2024-11-20T13:08:06.305686Z
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                218313
+patient.fullName                                          Teresinha Joana Dossin
+patient.preferredName                                                  Teresinha
+patient.birthDate                                                     1948-10-02
+patient.phoneNumber                                               +5551991893124
+patient.medicalRecordId                                                  9215502
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                             cirurgia
+formData.molecularnao                                                     opçãoA
+formData.biopsianao                                                       opçãoA
+formData.decisao                                                      2024-01-12
+formData.liberacao                                                    2024-01-04
+formData.inicio                                                       2024-01-31
+formData.testemolecular                                               2024-04-30
+formData.tipoPDL                                                             NaN
+formData.infusao                                                             NaN
+Name: 15, dtype: object]]","[(3, 0, 3, 3, 0, '0.0 %')]",[[]],"[(1, 37, '2.7 %')]","[(3, 37, '8.11 %')]","[(0, 37, '0.0 %')]"
+['2025-01-10 10:15:02.821137'],[12.5],[[]],[37.4],[[]],[30.0],"[[index                                                                          5
+id                                                                            12
+createdAt                                            2024-11-09T12:50:01.042433Z
+updatedAt                                            2024-11-20T13:05:56.598045Z
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                218510
+patient.fullName                                           Arnaldo Buede Sleimon
+patient.preferredName                                                    Arnaldo
+patient.birthDate                                                     1941-08-28
+patient.phoneNumber                                               +5551999695984
+patient.medicalRecordId                                                  1155037
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                             cirurgia
+formData.molecularnao                                                     opçãoB
+formData.biopsianao                                                       opçãoA
+formData.inicio                                                       2024-04-18
+formData.decisao                                                      2024-03-19
+formData.liberacao                                                    2024-05-03
+formData.tipoPDL                                                             NaN
+formData.infusao                                                             NaN
+formData.testemolecular                                               2024-09-04
+Name: 5, dtype: object]]",[135.0],"[[index                                                                         36
+id                                                                            60
+createdAt                                            2024-11-28T14:55:58.952816Z
+updatedAt                                                                    NaN
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                239084
+patient.fullName                             Maria Alda Cabral Severino da Silva
+patient.preferredName                                                      Maria
+patient.birthDate                                                     1952-11-21
+patient.phoneNumber                                                          NaN
+patient.medicalRecordId                                                      NaN
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                         quimioeimuno
+formData.molecularnao                                                     opçãoA
+formData.biopsianao                                                       opçãoA
+formData.inicio                                                       2021-05-07
+formData.decisao                                                             NaN
+formData.liberacao                                                    2021-04-30
+formData.tipoPDL                                                             [b]
+formData.infusao                                                      2021-05-07
+formData.testemolecular                                               2021-05-11
+Name: 1, dtype: object]]",[15.8],"[[index                                                                          1
+id                                                                            10
+createdAt                                            2024-11-09T12:23:40.136827Z
+updatedAt                                             2024-11-20T12:58:31.50587Z
+fieldSpecifications            [{'id': 'biopsianao', 'label': 'Disponibilidad...
+patient.id                                                                218301
+patient.fullName                                                Cesar Laus Simas
+patient.preferredName                                                      Cesar
+patient.birthDate                                                     1957-06-10
+patient.phoneNumber                                               +5548988232121
+patient.medicalRecordId                                                 11388868
+formTemplate.id                                                               15
+formTemplate.name                                      Informações de Tratamento
+formData.primeiroTratamento                                         quimioeimuno
+formData.molecularnao                                                     opçãoA
+formData.biopsianao                                                       opçãoA
+formData.inicio                                                       2023-12-29
+formData.decisao                                                      2023-11-21
+formData.liberacao                                                    2023-11-13
+formData.tipoPDL                                                             [b]
+formData.infusao                                                      2024-12-29
+formData.testemolecular                                               2023-11-27
+Name: 1, dtype: object]]","[(6, 2, 4, 4, 0, '0.0 %')]",[[]],"[(2, 39, '5.13 %')]","[(2, 39, '5.13 %')]","[(0, 39, '0.0 %')]"

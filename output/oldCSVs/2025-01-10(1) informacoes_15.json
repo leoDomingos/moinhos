@@ -1,0 +1,4117 @@
+{
+  "content": [
+    {
+      "id": 9,
+      "createdAt": "2024-11-09T11:43:25.023014Z",
+      "updatedAt": "2025-01-06T14:19:50.451931Z",
+      "patient": {
+        "id": 217975,
+        "fullName": "Danilo Juri Reston",
+        "preferredName": "Danilo",
+        "birthDate": "1936-12-27",
+        "phoneNumber": "+5551999877979",
+        "medicalRecordId": "1287122"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "inicio": "2024-03-18"
+      }
+    },
+    {
+      "id": 10,
+      "createdAt": "2024-11-09T12:23:40.136827Z",
+      "updatedAt": "2024-11-20T12:58:31.50587Z",
+      "patient": {
+        "id": 218301,
+        "fullName": "Cesar Laus Simas",
+        "preferredName": "Cesar",
+        "birthDate": "1957-06-10",
+        "phoneNumber": "+5548988232121",
+        "medicalRecordId": "11388868"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2023-11-21",
+        "liberacao": "2023-11-13",
+        "inicio": "2023-12-29",
+        "tipoPDL": ["b"],
+        "infusao": "2024-12-29",
+        "testemolecular": "2023-11-27"
+      }
+    },
+    {
+      "id": 11,
+      "createdAt": "2024-11-09T12:27:52.003602Z",
+      "updatedAt": "2024-11-20T13:01:52.101228Z",
+      "patient": {
+        "id": 218311,
+        "fullName": "Isabel Cristina Azevedo Rigon",
+        "preferredName": "Isabel",
+        "birthDate": "1970-01-29",
+        "phoneNumber": "+5551994475379",
+        "medicalRecordId": "1252756"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-02-05",
+        "liberacao": "2024-01-25",
+        "inicio": "2024-02-05",
+        "testemolecular": "2024-02-01"
+      }
+    },
+    {
+      "id": 13,
+      "createdAt": "2024-11-09T12:57:38.576597Z",
+      "updatedAt": "2024-11-20T13:08:06.305686Z",
+      "patient": {
+        "id": 218313,
+        "fullName": "Teresinha Joana Dossin",
+        "preferredName": "Teresinha",
+        "birthDate": "1948-10-02",
+        "phoneNumber": "+5551991893124",
+        "medicalRecordId": "9215502"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-01-12",
+        "liberacao": "2024-01-04",
+        "inicio": "2024-01-31",
+        "testemolecular": "2024-04-30"
+      }
+    },
+    {
+      "id": 14,
+      "createdAt": "2024-11-09T13:36:44.258158Z",
+      "updatedAt": "2024-11-20T13:10:39.841287Z",
+      "patient": {
+        "id": 218314,
+        "fullName": "Aurea Terezinha Sandri",
+        "preferredName": "Aurea",
+        "birthDate": "1941-03-04",
+        "phoneNumber": "+5551999911918",
+        "medicalRecordId": "11103799"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-03-18",
+        "liberacao": "2024-03-07",
+        "inicio": "2024-03-26",
+        "tipoPDL": ["c"],
+        "infusao": "2024-03-26"
+      }
+    },
+    {
+      "id": 12,
+      "createdAt": "2024-11-09T12:50:01.042433Z",
+      "updatedAt": "2024-11-20T13:05:56.598045Z",
+      "patient": {
+        "id": 218510,
+        "fullName": "Arnaldo Buede Sleimon",
+        "preferredName": "Arnaldo",
+        "birthDate": "1941-08-28",
+        "phoneNumber": "+5551999695984",
+        "medicalRecordId": "1155037"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-03-19",
+        "liberacao": "2024-05-03",
+        "inicio": "2024-04-18",
+        "testemolecular": "2024-09-04"
+      }
+    },
+    {
+      "id": 15,
+      "createdAt": "2024-11-09T13:49:46.996669Z",
+      "updatedAt": "2024-11-20T13:12:04.768755Z",
+      "patient": {
+        "id": 218592,
+        "fullName": "Luciana Pires Vale",
+        "preferredName": "Luciana",
+        "birthDate": "1977-10-24",
+        "phoneNumber": "+5551999475971",
+        "medicalRecordId": "10518096"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-04-08",
+        "liberacao": "2024-03-20",
+        "inicio": "2024-04-11",
+        "tipoPDL": ["a"],
+        "infusao": "2024-04-11",
+        "testemolecular": "2024-04-01"
+      }
+    },
+    {
+      "id": 16,
+      "createdAt": "2024-11-09T13:56:56.845127Z",
+      "updatedAt": "2024-11-20T13:13:17.40958Z",
+      "patient": {
+        "id": 219309,
+        "fullName": "Gladis Kier ",
+        "preferredName": "GLADIS",
+        "birthDate": "1943-01-04",
+        "phoneNumber": "+5551993516959",
+        "medicalRecordId": "1183719"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-04-11",
+        "liberacao": "2024-03-28",
+        "inicio": "2024-04-22",
+        "tipoPDL": ["b"],
+        "infusao": "2024-04-22",
+        "testemolecular": "2024-04-02"
+      }
+    },
+    {
+      "id": 17,
+      "createdAt": "2024-11-09T14:02:40.60653Z",
+      "updatedAt": "2025-01-06T14:21:06.882758Z",
+      "patient": {
+        "id": 219446,
+        "fullName": "Vilson Jose Muller",
+        "preferredName": "Vilson",
+        "birthDate": "1966-12-04",
+        "phoneNumber": "+5551995131813",
+        "medicalRecordId": "11406561"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "inicio": "2024-04-09"
+      }
+    },
+    {
+      "id": 18,
+      "createdAt": "2024-11-09T14:43:48.072271Z",
+      "updatedAt": "2024-11-20T13:15:34.692582Z",
+      "patient": {
+        "id": 219546,
+        "fullName": "Clarinda de Lima Tykalowitz",
+        "preferredName": "Clarinda",
+        "birthDate": "1943-03-26",
+        "phoneNumber": "+555130226842",
+        "medicalRecordId": "9567041"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-04-30",
+        "liberacao": "2024-04-08",
+        "inicio": "2024-05-10",
+        "tipoPDL": ["b"],
+        "infusao": "2024-05-10",
+        "testemolecular": "2024-04-16"
+      }
+    },
+    {
+      "id": 19,
+      "createdAt": "2024-11-09T14:59:06.351404Z",
+      "updatedAt": "2025-01-06T14:23:29.723083Z",
+      "patient": {
+        "id": 219994,
+        "fullName": "Paulo Sidiney Vieira Avancini",
+        "preferredName": "Paulo",
+        "birthDate": "1947-10-13",
+        "phoneNumber": "+5551992438247",
+        "medicalRecordId": "11179025"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "inicio": "2024-04-30",
+        "tipoPDL": []
+      }
+    },
+    {
+      "id": 22,
+      "createdAt": "2024-11-11T14:40:28.347534Z",
+      "updatedAt": "2025-01-06T14:19:30.782331Z",
+      "patient": {
+        "id": 221467,
+        "fullName": "Daniel Sotres",
+        "preferredName": "Daniel",
+        "birthDate": "1953-06-17",
+        "medicalRecordId": "11411383"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "inicio": "2024-04-29"
+      }
+    },
+    {
+      "id": 23,
+      "createdAt": "2024-11-11T14:44:29.103906Z",
+      "updatedAt": "2024-11-20T13:30:26.407662Z",
+      "patient": {
+        "id": 221921,
+        "fullName": "ROSANE BEATRIZ LIMBERGER MORAES",
+        "preferredName": "Rosane",
+        "birthDate": "1951-11-05",
+        "phoneNumber": "+5551999944889",
+        "medicalRecordId": "11414052"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "imuno",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-06-20",
+        "liberacao": "2024-06-10",
+        "inicio": "2024-06-28",
+        "tipoPDL": ["b"],
+        "infusao": "2024-06-28",
+        "testemolecular": "2024-06-19"
+      }
+    },
+    {
+      "id": 25,
+      "createdAt": "2024-11-11T16:19:32.948921Z",
+      "updatedAt": "2024-11-20T13:40:21.917133Z",
+      "patient": {
+        "id": 223314,
+        "fullName": "Rosalice Zanuz Boscaini",
+        "preferredName": "Rosalice",
+        "birthDate": "1966-11-02",
+        "phoneNumber": "+5554999171080",
+        "medicalRecordId": "11414971"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-06-17",
+        "liberacao": "2024-06-07",
+        "inicio": "2024-06-28",
+        "testemolecular": "2024-06-15"
+      }
+    },
+    {
+      "id": 26,
+      "createdAt": "2024-11-11T16:50:22.177305Z",
+      "updatedAt": "2025-01-06T14:20:30.529343Z",
+      "patient": {
+        "id": 224572,
+        "fullName": "Enestir Basso",
+        "preferredName": "Enestir",
+        "birthDate": "1951-01-25",
+        "medicalRecordId": "10788774"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "inicio": "2024-08-02",
+        "tipoPDL": []
+      }
+    },
+    {
+      "id": 24,
+      "createdAt": "2024-11-11T16:13:31.049831Z",
+      "updatedAt": "2024-11-20T13:32:51.982235Z",
+      "patient": {
+        "id": 224646,
+        "fullName": "Elizabeth Pontes Riet Corrêa",
+        "preferredName": "Elizabeth",
+        "birthDate": "1948-11-11",
+        "medicalRecordId": "10602543"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "decisao": "2023-10-13",
+        "liberacao": "2023-10-05",
+        "inicio": "2023-11-17"
+      }
+    },
+    {
+      "id": 21,
+      "createdAt": "2024-11-11T14:20:18.584964Z",
+      "updatedAt": "2024-11-20T13:26:07.891479Z",
+      "patient": {
+        "id": 226437,
+        "fullName": "Wilde Pedro da Silva",
+        "preferredName": "Wilde",
+        "birthDate": "1938-09-02",
+        "phoneNumber": "+5551999633833",
+        "medicalRecordId": "9817011"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-04-11",
+        "liberacao": "2024-01-25",
+        "inicio": "2024-05-07"
+      }
+    },
+    {
+      "id": 27,
+      "createdAt": "2024-11-11T17:06:23.600291Z",
+      "updatedAt": "2024-11-20T13:59:11.579048Z",
+      "patient": {
+        "id": 226446,
+        "fullName": "Norberto Wolff",
+        "preferredName": "Norberto",
+        "birthDate": "1947-10-22",
+        "phoneNumber": "+5551981263292",
+        "medicalRecordId": "9414350"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-01",
+        "liberacao": "2024-06-06",
+        "inicio": "2024-08-16",
+        "testemolecular": "2024-08-29"
+      }
+    },
+    {
+      "id": 31,
+      "createdAt": "2024-11-13T16:51:49.187442Z",
+      "updatedAt": "2024-11-20T14:12:26.977457Z",
+      "patient": {
+        "id": 226906,
+        "fullName": "Elsor Antônio Bondan",
+        "preferredName": "Elsor",
+        "birthDate": "1963-08-11",
+        "phoneNumber": "+5551999667083",
+        "medicalRecordId": "9006134"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-01",
+        "liberacao": "2024-07-25",
+        "inicio": "2024-08-02",
+        "testemolecular": "2024-08-01"
+      }
+    },
+    {
+      "id": 30,
+      "createdAt": "2024-11-12T17:52:52.926295Z",
+      "updatedAt": "2024-12-18T14:53:03.678961Z",
+      "patient": {
+        "id": 226999,
+        "fullName": "Mariza D Agord Schaan",
+        "preferredName": "Mariza",
+        "birthDate": "1960-08-28",
+        "phoneNumber": "+5551999827525",
+        "medicalRecordId": "9126847"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-21",
+        "liberacao": "2024-08-12",
+        "inicio": "2024-08-23",
+        "testemolecular": "2024-08-21"
+      }
+    },
+    {
+      "id": 28,
+      "createdAt": "2024-11-12T14:05:54.402469Z",
+      "updatedAt": "2024-12-18T14:51:19.055004Z",
+      "patient": {
+        "id": 227120,
+        "fullName": "Elvio José Pires",
+        "preferredName": "Elvio",
+        "birthDate": "1951-12-10",
+        "phoneNumber": "+5551989100101",
+        "medicalRecordId": "11422591"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-20",
+        "liberacao": "2024-08-09",
+        "inicio": "2024-08-24",
+        "testemolecular": "2024-09-04"
+      }
+    },
+    {
+      "id": 32,
+      "createdAt": "2024-11-13T17:51:47.840654Z",
+      "updatedAt": "2024-11-20T14:17:40.012741Z",
+      "patient": {
+        "id": 227211,
+        "fullName": "Luiz Roberto Vargas Avila",
+        "preferredName": "Luiz",
+        "birthDate": "1948-03-01",
+        "phoneNumber": "+5555981270140",
+        "medicalRecordId": "11324009"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "decisao": "2024-07-30",
+        "inicio": "2024-08-08"
+      }
+    },
+    {
+      "id": 34,
+      "createdAt": "2024-11-14T14:27:44.632695Z",
+      "updatedAt": "2024-11-20T14:30:22.266589Z",
+      "patient": {
+        "id": 227751,
+        "fullName": "Miguel Igor Russowsky",
+        "preferredName": "Miguel",
+        "birthDate": "1957-08-31",
+        "phoneNumber": "+5549999801543",
+        "medicalRecordId": "11366658"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "biopsianao": "opçãoB",
+        "decisao": "2024-01-04",
+        "inicio": "2024-01-12"
+      }
+    },
+    {
+      "id": 33,
+      "createdAt": "2024-11-13T18:30:22.547182Z",
+      "updatedAt": "2024-12-18T14:52:40.157389Z",
+      "patient": {
+        "id": 227891,
+        "fullName": "João Carlos Butarelli",
+        "preferredName": "João",
+        "birthDate": "1943-03-17",
+        "phoneNumber": "+5551999548888",
+        "medicalRecordId": "1032253"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-15",
+        "liberacao": "2024-07-17",
+        "inicio": "2024-08-30",
+        "testemolecular": "2024-08-02"
+      }
+    },
+    {
+      "id": 20,
+      "createdAt": "2024-11-11T14:01:05.030837Z",
+      "updatedAt": "2025-01-06T14:07:55.060839Z",
+      "patient": {
+        "id": 228108,
+        "fullName": "Geneci dos Santos Lemos",
+        "preferredName": "Geneci",
+        "birthDate": "1957-04-26",
+        "phoneNumber": "+5551985008601"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoB",
+        "inicio": "2023-02-08",
+        "tipoPDL": ["c"],
+        "infusao": "2023-07-20"
+      }
+    },
+    {
+      "id": 38,
+      "createdAt": "2024-11-21T17:03:15.388983Z",
+      "patient": {
+        "id": 229197,
+        "fullName": "Otocar Wondracek",
+        "preferredName": "Otocar",
+        "birthDate": "1954-07-01",
+        "phoneNumber": "+5551999093973",
+        "medicalRecordId": "10769475"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": { "molecularnao": "opçãoB", "biopsianao": "opçãoB" }
+    },
+    {
+      "id": 77,
+      "createdAt": "2024-12-03T19:45:00.237802Z",
+      "patient": {
+        "id": 229346,
+        "fullName": "Alessandro Teste",
+        "preferredName": "Alessandro",
+        "birthDate": "1980-01-01",
+        "phoneNumber": "+5532999992574"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-12-03",
+        "inicio": "2024-12-03",
+        "tipoPDL": ["a"],
+        "infusao": "2024-12-03"
+      }
+    },
+    {
+      "id": 74,
+      "createdAt": "2024-12-03T13:32:45.307591Z",
+      "patient": {
+        "id": 229346,
+        "fullName": "Alessandro Teste",
+        "preferredName": "Alessandro",
+        "birthDate": "1980-01-01",
+        "phoneNumber": "+5532999992574"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-12-01",
+        "liberacao": "2024-12-03",
+        "inicio": "2024-12-13",
+        "tipoPDL": ["c"],
+        "infusao": "2024-09-25"
+      }
+    },
+    {
+      "id": 8,
+      "createdAt": "2024-11-04T14:10:12.774981Z",
+      "updatedAt": "2024-11-18T13:43:41.556295Z",
+      "patient": {
+        "id": 229346,
+        "fullName": "Alessandro Teste",
+        "preferredName": "Alessandro",
+        "birthDate": "1980-01-01",
+        "phoneNumber": "+5532999992574"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": { "liberacao": "2024-11-07" }
+    },
+    {
+      "id": 7,
+      "createdAt": "2024-11-04T14:10:00.363701Z",
+      "updatedAt": "2024-11-18T13:43:41.556295Z",
+      "patient": {
+        "id": 229346,
+        "fullName": "Alessandro Teste",
+        "preferredName": "Alessandro",
+        "birthDate": "1980-01-01",
+        "phoneNumber": "+5532999992574"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": { "liberacao": "2024-11-05" }
+    },
+    {
+      "id": 35,
+      "createdAt": "2024-11-14T17:26:30.365832Z",
+      "updatedAt": "2024-12-18T14:46:36.071862Z",
+      "patient": {
+        "id": 229536,
+        "fullName": "Cerenita Ines Leonardi Urbanetto",
+        "preferredName": "Cerenita",
+        "birthDate": "1956-08-03",
+        "phoneNumber": "+555555999554275",
+        "medicalRecordId": "11242694"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-02",
+        "liberacao": "2024-07-23",
+        "inicio": "2024-08-26"
+      }
+    },
+    {
+      "id": 36,
+      "createdAt": "2024-11-14T17:44:45.985961Z",
+      "updatedAt": "2024-12-03T14:18:15.258958Z",
+      "patient": {
+        "id": 232862,
+        "fullName": "Ida Marilena Bianchi",
+        "preferredName": "Ida",
+        "birthDate": "1955-04-27",
+        "phoneNumber": "+555199969121",
+        "medicalRecordId": "11432319"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-11-04",
+        "liberacao": "2024-10-22",
+        "inicio": "2024-11-14",
+        "testemolecular": "2024-11-01"
+      }
+    },
+    {
+      "id": 37,
+      "createdAt": "2024-11-18T17:59:02.775011Z",
+      "updatedAt": "2024-11-20T14:33:29.376097Z",
+      "patient": {
+        "id": 232942,
+        "fullName": "Carlos Kleber Castilho",
+        "preferredName": "Carlos",
+        "birthDate": "1953-12-13",
+        "phoneNumber": "+555199612469",
+        "medicalRecordId": "10969707"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-07-26",
+        "liberacao": "2024-06-25",
+        "inicio": "2024-07-26",
+        "testemolecular": "2024-07-15"
+      }
+    },
+    {
+      "id": 40,
+      "createdAt": "2024-11-26T18:58:52.582105Z",
+      "updatedAt": "2024-12-18T15:05:29.883766Z",
+      "patient": {
+        "id": 238187,
+        "fullName": "Mario Rui Garcia de Almeida",
+        "preferredName": "Mario",
+        "birthDate": "1952-08-02",
+        "phoneNumber": "+5551991224815",
+        "medicalRecordId": "1019508"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-11-26",
+        "liberacao": "2024-11-07",
+        "inicio": "2024-12-11",
+        "tipoPDL": ["e"],
+        "infusao": "2024-12-11"
+      }
+    },
+    {
+      "id": 41,
+      "createdAt": "2024-11-27T16:50:01.004609Z",
+      "patient": {
+        "id": 238323,
+        "fullName": "Jose Luiz Pereira Quadrado",
+        "preferredName": "Jose",
+        "birthDate": "1957-03-22",
+        "medicalRecordId": "10866589"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2024-08-30",
+        "liberacao": "2024-08-27",
+        "inicio": "2024-09-09"
+      }
+    },
+    {
+      "id": 56,
+      "createdAt": "2024-11-28T14:26:43.621112Z",
+      "patient": {
+        "id": 239083,
+        "fullName": "Jose Augusto Raupp",
+        "preferredName": "Jose",
+        "birthDate": "1940-10-10"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeradio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-03-16",
+        "inicio": "2021-04-06"
+      }
+    },
+    {
+      "id": 60,
+      "createdAt": "2024-11-28T14:55:58.952816Z",
+      "patient": {
+        "id": 239084,
+        "fullName": "Maria Alda Cabral Severino da Silva",
+        "preferredName": "Maria",
+        "birthDate": "1952-11-21"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimioeimuno",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-04-30",
+        "inicio": "2021-05-07",
+        "tipoPDL": ["b"],
+        "infusao": "2021-05-07",
+        "testemolecular": "2021-05-11"
+      }
+    },
+    {
+      "id": 51,
+      "createdAt": "2024-11-28T14:19:01.419921Z",
+      "patient": {
+        "id": 239085,
+        "fullName": "IVANETE BEATRIZ MACHADO",
+        "preferredName": "IVANETE",
+        "birthDate": "1950-05-29"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2019-11-29",
+        "inicio": "2019-12-06",
+        "tipoPDL": ["b"],
+        "infusao": "2020-03-23"
+      }
+    },
+    {
+      "id": 67,
+      "createdAt": "2024-11-28T15:40:21.849236Z",
+      "patient": {
+        "id": 239089,
+        "fullName": "Ervino Ivo Renner",
+        "preferredName": "Ervino",
+        "birthDate": "1942-11-13"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "biopsianao": "opçãoA",
+        "liberacao": "2020-12-23",
+        "inicio": "2021-05-13",
+        "testemolecular": "2021-06-29"
+      }
+    },
+    {
+      "id": 44,
+      "createdAt": "2024-11-28T13:24:12.037348Z",
+      "patient": {
+        "id": 239091,
+        "fullName": "Antonio Carlos Meirelles Medeiros",
+        "preferredName": "Antonio",
+        "birthDate": "1955-09-07"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "decisao": "2021-07-07",
+        "liberacao": "2021-05-12",
+        "inicio": "2021-07-07"
+      }
+    },
+    {
+      "id": 48,
+      "createdAt": "2024-11-28T13:54:21.12204Z",
+      "patient": {
+        "id": 239092,
+        "fullName": "Esther Lerrer",
+        "preferredName": "Esther",
+        "birthDate": "1937-02-26"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-06-30",
+        "inicio": "2021-07-10",
+        "testemolecular": "2021-07-08"
+      }
+    },
+    {
+      "id": 46,
+      "createdAt": "2024-11-28T13:36:05.875878Z",
+      "patient": {
+        "id": 239093,
+        "fullName": "Audo Facin",
+        "preferredName": "Audo",
+        "birthDate": "1934-10-30"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-07-15"
+      }
+    },
+    {
+      "id": 49,
+      "createdAt": "2024-11-28T13:56:23.25226Z",
+      "patient": {
+        "id": 239095,
+        "fullName": "Fernando Fernandes de Mello",
+        "preferredName": "Fernando",
+        "birthDate": "1952-07-08"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-07-28",
+        "inicio": "2021-08-30"
+      }
+    },
+    {
+      "id": 71,
+      "createdAt": "2024-11-28T18:18:38.405052Z",
+      "patient": {
+        "id": 239096,
+        "fullName": "Zilda Ortiz Brufatto",
+        "preferredName": "Zilda",
+        "birthDate": "1943-11-10"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-06-09",
+        "inicio": "2021-07-19",
+        "tipoPDL": ["b"],
+        "infusao": "2021-09-09",
+        "testemolecular": "2021-06-24"
+      }
+    },
+    {
+      "id": 45,
+      "createdAt": "2024-11-28T13:30:43.556036Z",
+      "patient": {
+        "id": 239098,
+        "fullName": "Antonio Fausto Silveira",
+        "preferredName": "Antonio",
+        "birthDate": "1937-12-01"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-08-23",
+        "inicio": "2021-09-21",
+        "tipoPDL": ["e"],
+        "infusao": "2021-12-16"
+      }
+    },
+    {
+      "id": 52,
+      "createdAt": "2024-11-28T14:20:27.322353Z",
+      "patient": {
+        "id": 239099,
+        "fullName": "Ivo Carlos Saccaro",
+        "preferredName": "Ivo",
+        "birthDate": "1957-05-21"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2020-02-22",
+        "inicio": "2020-03-16",
+        "tipoPDL": ["e"],
+        "infusao": "2020-05-14"
+      }
+    },
+    {
+      "id": 62,
+      "createdAt": "2024-11-28T15:03:51.449098Z",
+      "patient": {
+        "id": 239100,
+        "fullName": "Regina Pereira Campello",
+        "preferredName": "Regina",
+        "birthDate": "1945-05-19"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "cirurgia",
+        "molecularnao": "opçãoA",
+        "biopsianao": "opçãoA",
+        "liberacao": "2021-07-12",
+        "inicio": "2021-08-12",
+        "tipoPDL": ["b"],
+        "infusao": "2022-08-04",
+        "testemolecular": "2021-09-27"
+      }
+    },
+    {
+      "id": 59,
+      "createdAt": "2024-11-28T14:39:29.475423Z",
+      "patient": {
+        "id": 239101,
+        "fullName": "Lilia Vitoria da Silva",
+        "preferredName": "Lilia",
+        "birthDate": "1956-01-19"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2020-01-14",
+        "inicio": "2020-03-18",
+        "tipoPDL": ["c"],
+        "infusao": "2021-09-28"
+      }
+    },
+    {
+      "id": 43,
+      "createdAt": "2024-11-28T13:13:26.521213Z",
+      "patient": {
+        "id": 239102,
+        "fullName": "Antonio Carlos Canani",
+        "preferredName": "Antonio",
+        "birthDate": "1938-08-02"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "radio",
+        "molecularnao": "opçãoB",
+        "biopsianao": "opçãoA",
+        "liberacao": "2024-08-24",
+        "inicio": "2024-09-16",
+        "tipoPDL": ["c"],
+        "infusao": "2021-10-06"
+      }
+    },
+    {
+      "id": 65,
+      "createdAt": "2024-11-28T15:10:41.815038Z",
+      "patient": {
+        "id": 239105,
+        "fullName": "Vitor Hugo Graeff Trindade",
+        "preferredName": "Vitor",
+        "birthDate": "1951-10-05"
+      },
+      "formTemplate": { "id": 15, "name": "Informações de Tratamento" },
+      "fieldSpecifications": [
+        {
+          "id": "biopsianao",
+          "label": "Disponibilidade da data da biópsia:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        { "id": "liberacao", "label": "Liberação da biópsia:", "type": "Date" },
+        {
+          "id": "molecularnao",
+          "label": "Disponibilidade do teste molecular:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "opçãoA", "label": "Sim (preencher data abaixo)" },
+            { "value": "opçãoB", "label": "Não disponível" }
+          ]
+        },
+        {
+          "id": "testemolecular",
+          "label": "Liberação de teste molecular:",
+          "type": "Date"
+        },
+        { "id": "decisao", "label": "Decisão do Tratamento:", "type": "Date" },
+        { "id": "inicio", "label": "Início do Tratamento:", "type": "Date" },
+        {
+          "id": "primeiroTratamento",
+          "label": "Primeiro tratamento:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "quimio", "label": "Quimioterapia" },
+            { "value": "radio", "label": "Radioterapia" },
+            { "value": "cirurgia", "label": "Cirurgia" },
+            { "value": "imuno", "label": "Imunoterapia" },
+            {
+              "value": "quimioeradio",
+              "label": "Quimioterapia + Radioterapia"
+            },
+            { "value": "quimioeimuno", "label": "Quimioterapia + Imunoterapia" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Infusão de PDL1 (caso se aplique):",
+          "type": "Date"
+        },
+        {
+          "id": "tipoPDL",
+          "label": "Tipo de PDL1 (caso se aplique):",
+          "type": "Checklist",
+          "options": [
+            { "value": "a", "label": "Nivolumabe" },
+            { "value": "b", "label": "Pembrolizumabe" },
+            { "value": "c", "label": "Atezolizumabe" },
+            { "value": "d", "label": "Avelumabe" },
+            { "value": "e", "label": "Durvalumabe" }
+          ]
+        }
+      ],
+      "formData": {
+        "primeiroTratamento": "quimio",
+        "biopsianao": "opçãoA",
+        "liberacao": "2020-06-30",
+        "inicio": "2020-08-07",
+        "tipoPDL": ["b"],
+        "infusao": "2020-09-10",
+        "testemolecular": "2020-08-24"
+      }
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": false,
+  "number": 0,
+  "numberOfElements": 50,
+  "size": 50,
+  "totalPages": 2,
+  "totalElements": 64,
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 50,
+    "sort": { "empty": true, "sorted": false, "unsorted": true },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "sort": { "empty": true, "sorted": false, "unsorted": true }
+}

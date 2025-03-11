@@ -1,0 +1,997 @@
+{
+  "content": [
+    {
+      "id": 39,
+      "createdAt": "2024-11-26T16:46:41.064945Z",
+      "updatedAt": "2024-12-02T13:20:05.976728Z",
+      "patient": {
+        "id": 218313,
+        "fullName": "Teresinha Joana Dossin",
+        "preferredName": "Teresinha",
+        "birthDate": "1948-10-02",
+        "phoneNumber": "+5551991893124",
+        "medicalRecordId": "9215502"
+      },
+      "formTemplate": { "id": 19, "name": "Formulário de Toxicidade" },
+      "fieldSpecifications": [
+        {
+          "id": "semqueixa",
+          "label": "Paciente sem queixas:",
+          "type": "MultipleChoice",
+          "options": [{ "value": "1", "label": "Toxicidade igual 0" }]
+        },
+        {
+          "id": "fracao",
+          "label": "Fração de ejeção diminuída: (A porcentagem calculada quando a quantidade \n de sangue ejetada durante uma contração ventricular do coração é comparada com a quantidade que estava presente antes da contração. Critérios separados são usados para insuficiência cardíaca e disfunção sistólica ventricular esquerda.)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Fração de ejeção em repouso 50 a 40%; queda de 10 a 19% em relação à linha de base)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Fração de ejeção em repouso 39 a 20%; queda >= 20% em relação ao valor basal)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Fração de ejeção em repouso < 20%)"
+            },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "alopecia",
+          "label": "Alopécia: (A alopécia é caracterizada por uma diminuição na densidade do cabelo em comparação com o normal para um determinado indivíduo, em uma determiniada idade e localização corporal.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Perda de cabelo < 50% normal para aquele indivíduo que não é óbvia à distância, mas apenas após uma inspeção mais detalhada; um penteado diferente pode ser necessário para cobrir a queda de cabelo, mas não requer peruca ou aplique de cabelo para camuflar)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Perda de cabelo >= 50% normal para aquele indivíduo que é facilmente aparente para outros; é necessária uma peruca ou postiço se o paciente desejar camulfar completamente a queda de cabelo; associado ao impacto psicossocial)"
+            },
+            { "value": "3", "label": "Grau 3" },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "erupcao",
+          "label": "Erupção aceniforme: (A erupção acneiforme é caracterizada por uma erupção de pápulas e pústulas, geralmente aparecendo na face, couro cabeludo,parte superior do tórax e costas.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Pápulas e/ou pústulas cobrindo < 10% da superfície corporal, que podem ou não estar associadas a sintomas de prurido ou sensibilidade)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Pápulas e/ou pústulas cobrindo 10 a 30% da superfície corporal, que podem ou não estar associadas a sintomas de prurido ou sensibilidade; associado ao impacto psicossocial; limitação das AVD instumentais*; pápulas e/ou pústulas cobrindo > 30% da superfície corporal, com ou sem sintimas leves)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Pápulas e/ou  pústulas cobrindo > 30% da superfície corporal com sintomas moderados ou graves; limitação das AVD do autocuidado*; associada à superinfecção local com antibióticos orais indicados)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; pápulas e/ou pústulas cobrindo qualquer porcentagem da área de superfície corporal, que podem ou não estar associadas a sintomas de pruirdo ou sensibilidade e estão associadas a superinfecção extensa com antibióticos intravenosos indicados)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "sindrome",
+          "label": "Síndrome de eritrodisestesia palmar-plantar: (A síndrome de eritrodisestesia palmar-plantar é caracterizada por vemelhidão, desconforto acentuado, inchaço e formigamento nas palmas das mãos ou nas solas dos pés. A síndrome da eritrodisestesia palmar-plantar também é chamada de síndrome mão-pé. Consulte os tópicos do UpToDate sobre.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Alterações cutâneas mínimas ou dermatite - por exemplo, eritema, edema ou hiperqueratose - sem dor)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Alterações na pele - por exemplo, descamação, bolhas, sagramento, edema ou hiperqueratose - com dor, limitando as AVD instrumentais*)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Alterações cutâneas graves - por exemplo, descamação, bolhas, sagramento, edema ou hiperqueratose - com dor, limitando o autocuidado AVD*)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "prurido",
+          "label": "Prurido: (Um distúrbio caracterizado por uma intensa sensação de coceira.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Leve ou localizado; intervenção tópica indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Difundido e intermitente; alterações na pele causadas por coçar - por exemplo, edema, paupação, escoriações, liquenificação, exsudação/crostas - intervenção oral indicada; limitando AVD instrumental)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Difundido e constante; limitar as AVD de autocuidado ou o sono; corticosteróide sistêmico ou terapia imunossupressora indicada)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "dermatite",
+          "label": "Dermatite de radiação: (A dermatite de radiação é um achado de reação inflamatória cutânea que ocorre como resultado da exposição a níveis biologicamente eficazes de radiação ionizante)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Eritema leve ou descamação seca)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Eritema moderado a rápido; descamação úmida irregular, principalmente confinada às dobras e vindos da pele; edema moderado)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Descamação úmida em outras áreas além das dobras e vincos da pele; sangramento induzido por pequeno trauma ou abrasão)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; necrose cutânea ou ulceração de toda a espessura da derme; sangramento espontâneo do local envolvido; enxerto de pele indicado)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "mucosite",
+          "label": "Mucosite oral: (A mucosite oral é caracterizada por ulceração ou inflamação da mucosa oral.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sintomas assintomáticos ou leves; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Dor moderada ou úlcera que não interfere na ingestão oral; dieta modificada indicada)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Dor intensa, interferindo na ingestão oral)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "nausea",
+          "label": "Náusea:",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Perda de apetite sem alteração nos hábitos alimentares)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (A ingestão oral diminuiu sem perda sigificativa de peso, desidratação ou desnutrição)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Ingestão oral inadequada de calorias ou líquidos; alimentação por sonda, NPT ou hospitalização indicada)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "vomito",
+          "label": "Vômito:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Intervenção não indicada)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Hidratação intravenosa ambulatorial; intervenção médica indicada)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Indicação de alimentação por sonda, NPT ou hospitalização)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "disfagia",
+          "label": "Disfagia: (A disfagia é caracterizada pela dificuldade de engolir.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sintomático, capaz de fazer dieta regular)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Alimentação/deglutição sintomática e alterada)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Alimentação/deglutição gravemente alterada; alimentação por sonda ou NPT ou hospitalização indicada)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "constipação",
+          "label": "Constipação: (A constipação é caracterizada por evacuação intestinal irregula, pouco frequente ou difícil.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sintomas ocasionais ou intermitentes; uso ocasional de amaciantes de fezes, laxantes, modificação dietética ou enema)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Sintomas persistentes com uso regular de laxantes ou enemas; limitação de AVD instumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Indicada obstipação com evacuação manual; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "diarreia",
+          "label": "Diarréia: (A diarréia é caracterizada por um aumento na frequência e/ou evacuações soltas ou aquosas.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Aumento de < 4 evacuações por dia em relação ao valor basal; ligeiro aumento no débito da ostomia em comparação com o valor basal)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Aumento de quatro a seis evacuações por dia em relação ao valor basal; aumento moderado na produção de ostomia em comparação com o valor basal; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Aumento de sete ou mais evacuações por dia em relação ao valor basal; internação indicada; aumento grave na produção de ostomia em comparação com o valor basal; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "fadiga",
+          "label": "Fadiga: (A fadiga é caracterizada por um estado de fraqueza generalizada com uma incapacidade pronunciada de reunir energia suficiente para realizar as atividades diárias.)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Fadiga aliviada pelo descanso)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Fadiga não aliviada pelo repouso; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Fadiga não aliviada pelo repouso; limitando AVDs de autocuidado)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Reação relacionada à infusão: (A reação relacionada à infusão é caracterizada por reação adversa à infusão de substâncias farmacológicas ou biológicas)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Reação transitória leve; interrupção da infusão não indicada; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (A interrupção da terapia ou da infusão é indicada, mas responde prontamente ao tratamento sintomático - por exemplo, anti-histamínicos, AINEs, narcóticos [opioides], fluidos intravenosos - medicação profilática indicada por período menor ou igual a 24 horas)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Prolongado - por exemplo, sem reposta rápida à medicação sintomática e/ou breve interrupção da infusão - recorrência dos sintomas após melhora inicial; internação indicada para outras sequelas clínicas)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "injecao",
+          "label": "Reação no local da injeção:",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sensibilidade com ou sem sintomas associados - por exemplo, calor, eritema, coceira)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Dor; lipodistrofia; edema; flebite)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Ulceração ou necrose; dano tecidual grave; intervenção operatória indicada)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "extravasamento",
+          "label": "Extravasamento no local da infusão: (O extravasamento no local da infusão é caracterizado pelo vazamento da infusão para o tecido circundante. Os sinais e sintomas incluem endurecimento, eritema, inchaço, sensação de queimação e desconforto acentuado no local da infusão)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Edema indolor)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Eritema com sintomas associados - por exemplo, edema, dor, endurecimento, flebite)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Ulceração ou necrose, danos graves nos tecidos; intervenção operatória indicada)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "dor",
+          "label": "Dor: (A dor é graduada individualmente para vários locais do corpo e é caracterizada pela sensação de desconforto, angústia ou agonia acentuada.)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Dor suave)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Dor moderada; limitação de AVD instrumentais*)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Dor forte; limitando AVDs de autocuidado*)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "peso",
+          "label": "Perda de peso: (A perda de peso é caracterizada por uma diminuição do peso corporal total; para pediatria, menor que a curva de crescimento basal.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (5 a < 10% da linha de base; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (10 a < 20% da linha de base; suporte nutricional indicado)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (>= 20% do valor basal; alimentaçãopor sonda ou NPT indicada)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "dispneia",
+          "label": "Dispneia: (A dispneia é caracterizada por uma sensação desconfortável de dificuldade para respirar.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Falta de ar com esforço moderado)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Falta de ar com esforço mínimo; limitação de AVD instumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Falta de ar em repouso; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "pneumonite",
+          "label": "Pneumonite: (A pneumonite é caracterizada por inflamação que afeta focal ou difusamente o parênquima pulmonar.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Assintomático; apenas observações clínicas ou diagnósticas; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Sintomático; intervenção médica; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Sintomas graves; limitação das AVD do autocuidado; oxigênio indicado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Comprometimento respiratório com risco de vida; intervenção urgente indicada - por exemplo, traqueostomia ou intubação)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "neuropatiamotora",
+          "label": "Neuropatia motora periférica:",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Assintomático; apenas observações clínicas ou diagnósticas)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Sintomas moderados; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Sintomas graves; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        }
+      ],
+      "formData": { "diarreia": "1", "fadiga": "1" }
+    },
+    {
+      "id": 72,
+      "createdAt": "2024-11-29T16:32:23.422193Z",
+      "updatedAt": "2024-12-02T13:20:05.976728Z",
+      "patient": {
+        "id": 219546,
+        "fullName": "Clarinda de Lima Tykalowitz",
+        "preferredName": "Clarinda",
+        "birthDate": "1943-03-26",
+        "phoneNumber": "+555130226842",
+        "medicalRecordId": "9567041"
+      },
+      "formTemplate": { "id": 19, "name": "Formulário de Toxicidade" },
+      "fieldSpecifications": [
+        {
+          "id": "semqueixa",
+          "label": "Paciente sem queixas:",
+          "type": "MultipleChoice",
+          "options": [{ "value": "1", "label": "Toxicidade igual 0" }]
+        },
+        {
+          "id": "fracao",
+          "label": "Fração de ejeção diminuída: (A porcentagem calculada quando a quantidade \n de sangue ejetada durante uma contração ventricular do coração é comparada com a quantidade que estava presente antes da contração. Critérios separados são usados para insuficiência cardíaca e disfunção sistólica ventricular esquerda.)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Fração de ejeção em repouso 50 a 40%; queda de 10 a 19% em relação à linha de base)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Fração de ejeção em repouso 39 a 20%; queda >= 20% em relação ao valor basal)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Fração de ejeção em repouso < 20%)"
+            },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "alopecia",
+          "label": "Alopécia: (A alopécia é caracterizada por uma diminuição na densidade do cabelo em comparação com o normal para um determinado indivíduo, em uma determiniada idade e localização corporal.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Perda de cabelo < 50% normal para aquele indivíduo que não é óbvia à distância, mas apenas após uma inspeção mais detalhada; um penteado diferente pode ser necessário para cobrir a queda de cabelo, mas não requer peruca ou aplique de cabelo para camuflar)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Perda de cabelo >= 50% normal para aquele indivíduo que é facilmente aparente para outros; é necessária uma peruca ou postiço se o paciente desejar camulfar completamente a queda de cabelo; associado ao impacto psicossocial)"
+            },
+            { "value": "3", "label": "Grau 3" },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "erupcao",
+          "label": "Erupção aceniforme: (A erupção acneiforme é caracterizada por uma erupção de pápulas e pústulas, geralmente aparecendo na face, couro cabeludo,parte superior do tórax e costas.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Pápulas e/ou pústulas cobrindo < 10% da superfície corporal, que podem ou não estar associadas a sintomas de prurido ou sensibilidade)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Pápulas e/ou pústulas cobrindo 10 a 30% da superfície corporal, que podem ou não estar associadas a sintomas de prurido ou sensibilidade; associado ao impacto psicossocial; limitação das AVD instumentais*; pápulas e/ou pústulas cobrindo > 30% da superfície corporal, com ou sem sintimas leves)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Pápulas e/ou  pústulas cobrindo > 30% da superfície corporal com sintomas moderados ou graves; limitação das AVD do autocuidado*; associada à superinfecção local com antibióticos orais indicados)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; pápulas e/ou pústulas cobrindo qualquer porcentagem da área de superfície corporal, que podem ou não estar associadas a sintomas de pruirdo ou sensibilidade e estão associadas a superinfecção extensa com antibióticos intravenosos indicados)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "sindrome",
+          "label": "Síndrome de eritrodisestesia palmar-plantar: (A síndrome de eritrodisestesia palmar-plantar é caracterizada por vemelhidão, desconforto acentuado, inchaço e formigamento nas palmas das mãos ou nas solas dos pés. A síndrome da eritrodisestesia palmar-plantar também é chamada de síndrome mão-pé. Consulte os tópicos do UpToDate sobre.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Alterações cutâneas mínimas ou dermatite - por exemplo, eritema, edema ou hiperqueratose - sem dor)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Alterações na pele - por exemplo, descamação, bolhas, sagramento, edema ou hiperqueratose - com dor, limitando as AVD instrumentais*)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Alterações cutâneas graves - por exemplo, descamação, bolhas, sagramento, edema ou hiperqueratose - com dor, limitando o autocuidado AVD*)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "prurido",
+          "label": "Prurido: (Um distúrbio caracterizado por uma intensa sensação de coceira.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Leve ou localizado; intervenção tópica indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Difundido e intermitente; alterações na pele causadas por coçar - por exemplo, edema, paupação, escoriações, liquenificação, exsudação/crostas - intervenção oral indicada; limitando AVD instrumental)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Difundido e constante; limitar as AVD de autocuidado ou o sono; corticosteróide sistêmico ou terapia imunossupressora indicada)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "dermatite",
+          "label": "Dermatite de radiação: (A dermatite de radiação é um achado de reação inflamatória cutânea que ocorre como resultado da exposição a níveis biologicamente eficazes de radiação ionizante)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Eritema leve ou descamação seca)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Eritema moderado a rápido; descamação úmida irregular, principalmente confinada às dobras e vindos da pele; edema moderado)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Descamação úmida em outras áreas além das dobras e vincos da pele; sangramento induzido por pequeno trauma ou abrasão)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; necrose cutânea ou ulceração de toda a espessura da derme; sangramento espontâneo do local envolvido; enxerto de pele indicado)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "mucosite",
+          "label": "Mucosite oral: (A mucosite oral é caracterizada por ulceração ou inflamação da mucosa oral.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sintomas assintomáticos ou leves; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Dor moderada ou úlcera que não interfere na ingestão oral; dieta modificada indicada)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Dor intensa, interferindo na ingestão oral)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "nausea",
+          "label": "Náusea:",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Perda de apetite sem alteração nos hábitos alimentares)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (A ingestão oral diminuiu sem perda sigificativa de peso, desidratação ou desnutrição)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Ingestão oral inadequada de calorias ou líquidos; alimentação por sonda, NPT ou hospitalização indicada)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "vomito",
+          "label": "Vômito:",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Intervenção não indicada)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Hidratação intravenosa ambulatorial; intervenção médica indicada)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Indicação de alimentação por sonda, NPT ou hospitalização)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "disfagia",
+          "label": "Disfagia: (A disfagia é caracterizada pela dificuldade de engolir.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sintomático, capaz de fazer dieta regular)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Alimentação/deglutição sintomática e alterada)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Alimentação/deglutição gravemente alterada; alimentação por sonda ou NPT ou hospitalização indicada)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "constipação",
+          "label": "Constipação: (A constipação é caracterizada por evacuação intestinal irregula, pouco frequente ou difícil.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sintomas ocasionais ou intermitentes; uso ocasional de amaciantes de fezes, laxantes, modificação dietética ou enema)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Sintomas persistentes com uso regular de laxantes ou enemas; limitação de AVD instumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Indicada obstipação com evacuação manual; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "diarreia",
+          "label": "Diarréia: (A diarréia é caracterizada por um aumento na frequência e/ou evacuações soltas ou aquosas.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Aumento de < 4 evacuações por dia em relação ao valor basal; ligeiro aumento no débito da ostomia em comparação com o valor basal)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Aumento de quatro a seis evacuações por dia em relação ao valor basal; aumento moderado na produção de ostomia em comparação com o valor basal; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Aumento de sete ou mais evacuações por dia em relação ao valor basal; internação indicada; aumento grave na produção de ostomia em comparação com o valor basal; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "fadiga",
+          "label": "Fadiga: (A fadiga é caracterizada por um estado de fraqueza generalizada com uma incapacidade pronunciada de reunir energia suficiente para realizar as atividades diárias.)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Fadiga aliviada pelo descanso)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Fadiga não aliviada pelo repouso; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Fadiga não aliviada pelo repouso; limitando AVDs de autocuidado)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "infusao",
+          "label": "Reação relacionada à infusão: (A reação relacionada à infusão é caracterizada por reação adversa à infusão de substâncias farmacológicas ou biológicas)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Reação transitória leve; interrupção da infusão não indicada; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (A interrupção da terapia ou da infusão é indicada, mas responde prontamente ao tratamento sintomático - por exemplo, anti-histamínicos, AINEs, narcóticos [opioides], fluidos intravenosos - medicação profilática indicada por período menor ou igual a 24 horas)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Prolongado - por exemplo, sem reposta rápida à medicação sintomática e/ou breve interrupção da infusão - recorrência dos sintomas após melhora inicial; internação indicada para outras sequelas clínicas)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "injecao",
+          "label": "Reação no local da injeção:",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Sensibilidade com ou sem sintomas associados - por exemplo, calor, eritema, coceira)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Dor; lipodistrofia; edema; flebite)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Ulceração ou necrose; dano tecidual grave; intervenção operatória indicada)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "extravasamento",
+          "label": "Extravasamento no local da infusão: (O extravasamento no local da infusão é caracterizado pelo vazamento da infusão para o tecido circundante. Os sinais e sintomas incluem endurecimento, eritema, inchaço, sensação de queimação e desconforto acentuado no local da infusão)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Edema indolor)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Eritema com sintomas associados - por exemplo, edema, dor, endurecimento, flebite)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Ulceração ou necrose, danos graves nos tecidos; intervenção operatória indicada)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "dor",
+          "label": "Dor: (A dor é graduada individualmente para vários locais do corpo e é caracterizada pela sensação de desconforto, angústia ou agonia acentuada.)",
+          "type": "MultipleChoice",
+          "options": [
+            { "value": "1", "label": "Grau 1 (Dor suave)" },
+            {
+              "value": "2",
+              "label": "Grau 2 (Dor moderada; limitação de AVD instrumentais*)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Dor forte; limitando AVDs de autocuidado*)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "peso",
+          "label": "Perda de peso: (A perda de peso é caracterizada por uma diminuição do peso corporal total; para pediatria, menor que a curva de crescimento basal.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (5 a < 10% da linha de base; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (10 a < 20% da linha de base; suporte nutricional indicado)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (>= 20% do valor basal; alimentaçãopor sonda ou NPT indicada)"
+            },
+            { "value": "4", "label": "Grau 4" },
+            { "value": "5", "label": "Grau 5" }
+          ]
+        },
+        {
+          "id": "dispneia",
+          "label": "Dispneia: (A dispneia é caracterizada por uma sensação desconfortável de dificuldade para respirar.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Falta de ar com esforço moderado)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Falta de ar com esforço mínimo; limitação de AVD instumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Falta de ar em repouso; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "pneumonite",
+          "label": "Pneumonite: (A pneumonite é caracterizada por inflamação que afeta focal ou difusamente o parênquima pulmonar.)",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Assintomático; apenas observações clínicas ou diagnósticas; intervenção não indicada)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Sintomático; intervenção médica; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Sintomas graves; limitação das AVD do autocuidado; oxigênio indicado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Comprometimento respiratório com risco de vida; intervenção urgente indicada - por exemplo, traqueostomia ou intubação)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        },
+        {
+          "id": "neuropatiamotora",
+          "label": "Neuropatia motora periférica:",
+          "type": "MultipleChoice",
+          "options": [
+            {
+              "value": "1",
+              "label": "Grau 1 (Assintomático; apenas observações clínicas ou diagnósticas)"
+            },
+            {
+              "value": "2",
+              "label": "Grau 2 (Sintomas moderados; limitação de AVD instrumentais)"
+            },
+            {
+              "value": "3",
+              "label": "Grau 3 (Sintomas graves; limitando AVDs de autocuidado)"
+            },
+            {
+              "value": "4",
+              "label": "Grau 4 (Consequências com risco de vida; intervenção urgente indicada)"
+            },
+            { "value": "5", "label": "Grau 5 (Morte)" }
+          ]
+        }
+      ],
+      "formData": { "fadiga": "1" }
+    }
+  ],
+  "empty": false,
+  "first": true,
+  "last": true,
+  "number": 0,
+  "numberOfElements": 2,
+  "size": 50,
+  "totalPages": 1,
+  "totalElements": 2,
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 50,
+    "sort": { "empty": true, "sorted": false, "unsorted": true },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "sort": { "empty": true, "sorted": false, "unsorted": true }
+}
